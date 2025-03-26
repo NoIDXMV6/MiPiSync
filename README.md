@@ -4,9 +4,11 @@ for ROS 7.x!
 
 ## Usage
 
-First - edit credentionals in config.ini
+First - edit creditionals in config.ini
 
-Second - Just run 
+Second - chmod +x update.sh
+
+Third - Just run 
 
 
 ```
