@@ -4,7 +4,7 @@ for ROS 7.x!
 
 ## Usage
 
-First - edit credentionals
+First - edit credentionals in config.ini
 
 Second - Just run 
 
