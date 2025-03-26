@@ -6,11 +6,12 @@ for ROS 7.x!
 
 First - edit creditionals in config.ini
 
-Second - chmod +x update.sh
+Second - 
+```
+chmod +x update.sh
+```
 
 Third - Just run 
-
-
 ```
 ./update.sh
 ```
