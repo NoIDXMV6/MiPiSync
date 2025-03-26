@@ -4,7 +4,8 @@ for ROS 7.x!
 
 ## Usage
 
-Just run 
+First - edit credentionals
+Second - Just run 
 
 ```
 ./update.sh
