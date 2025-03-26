@@ -48,9 +48,10 @@ password = <Router password>
 ./converter.sh [domain-list-file] [output-file]
 ```
 
-https://github.com/netspeedy/MikroTik-Static-DNS-Synchronizer
 
 ## MikroTik Static DNS Synchronizer
+
+https://github.com/netspeedy/MikroTik-Static-DNS-Synchronizer
 
 MikroTik Static DNS Synchronizer is a Python script designed to automate the synchronization of static DNS entries between a configuration file (`config.ini`) and a MikroTik router. It supports both CNAME and A record types and ensures that your MikroTik router's DNS entries reflect the latest configuration defined in the `config.ini` file.
 
