@@ -4,7 +4,13 @@ I have two Pi-Hole instances deployed in my home network. One IP address is used
 
 The script solves one task - exporting local DNS records from Pi-Hole to Mikrotik ROS 7.x
 
-A huge thank you to https://github.com/netspeedy for the static record synchronization script!
+### A huge thank you to https://github.com/netspeedy for the static record synchronization script!
+
+## Attention!!!
+
+
+__!!! Script works only with Pi-Hole 5.x !!!__
+
 
 ## Usage
 
