@@ -1,0 +1,6 @@
+[Router]
+address = <RouterIP>
+username = <autodns>
+password = <dnssync>
+
+[DNSRecords]
