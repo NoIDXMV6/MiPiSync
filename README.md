@@ -1,5 +1,7 @@
 # MiPiSync
 
+for ROS 7.x!
+
 ## Usage
 
 Just run 
