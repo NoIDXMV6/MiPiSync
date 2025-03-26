@@ -1,6 +1,10 @@
 # MiPiSync
 
-for ROS 7.x!
+I have two Pi-Hole instances deployed in my home network. One IP address is used for the DNS server using the VRRP protocol. They are synchronized with each other. But, if the hardware servers are unavailable or virtualization fails, the only DNS server is the router, which is also part of this VRRP group.
+
+The script solves one problem - exporting local DNS records from Pi-Hole to Mikrotik ROS 7.x
+
+A huge thank you to https://github.com/netspeedy for the static record synchronization script!
 
 ## Usage
 
