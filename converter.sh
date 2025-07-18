@@ -6,7 +6,7 @@
 
 echo -e "[+] Converter.sh by NoID"
 if [ -z "$1" ] || [ -z "$2" ]; then
-    echo "Convert stanart Pi-Hole Local DNS List to config.ini format MikroTik-Static-DNS-Syncronizer."
+    echo "Convert stanart Pi-Hole 7.x Local DNS List to config.ini format MikroTik-Static-DNS-Syncronizer."
     echo "Source code https://github.com/netspeedy/MikroTik-Static-DNS-Synchronizer"
     echo ""
     echo "[!] File config.head must be exist and contains creditionals data like this:"
@@ -28,5 +28,5 @@ fi
 
 echo -e "\n[+] Converting from customlist to config.ini..."
 cp config.head $2
-awk '{print $2,"=",$1}' $1 >> $2
+awk '/^([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+|([0-9a-fA-F]{1,4}:){1,7}[0-9a-fA-F]{1,4}) / {print $2, "=", $1}' $1 | sort >> $2
 echo -e "\n[+] Done, DNS with IPs saved to '$2'."
